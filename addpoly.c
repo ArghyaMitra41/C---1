@@ -109,10 +109,10 @@ int main()
                 switch(ch)
                 {
                         case 1: 
-				printf("\nEnter node number for 1st polynomial ");
+				printf("\nEnter node number for 1st polynomial: ");
 				scanf("%d",&n);
 				head1=create(head1,n);
-				printf("\nEnter node number for 2nd polynomial ");
+				printf("\nEnter node number for 2nd polynomial: ");
 				scanf("%d",&n);
 				head2=create(head2,n);
                                 break;
